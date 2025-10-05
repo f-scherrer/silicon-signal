@@ -1,0 +1,14 @@
+version: 1
+formatters:
+  std:
+    format: "[%(asctime)s] %(levelname)s %(name)s: %(message)s"
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: std
+loggers:
+  "":
+    level: INFO
+    handlers: [console]
+    propagate: false

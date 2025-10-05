@@ -1,0 +1,9 @@
+pandas
+numpy
+pydantic>=2
+pydantic-settings
+python-dotenv
+pyyaml
+loguru
+ta
+scikit-learn

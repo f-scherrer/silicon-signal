@@ -1,0 +1,12 @@
+app:
+  env:
+  seed: 42
+
+market:
+  universe: ["NVDA", "AMD", "ASML", "TSM", "AVGO", "INTC"]
+
+baseline:
+  price_source: "yfinance"
+  tf: "1d"
+  resample_to: "W"
+  tech_indicators: ["EMA_20", "EMA_50", "RSI_14", "ATR_14", "MACD"]

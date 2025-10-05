@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  algo:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+    command: ["python","-m","src.main","--pipeline","minimal"]
