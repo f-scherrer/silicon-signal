@@ -6,7 +6,7 @@ Baseline (fundamental & technical) features, sentiment, supply-chain graph, GNNs
 **License:** _Business Source License 1.1 (BUSL-1.1)_
 
 - **No production/commercial use** without a separate commercial license.
-- (Optional) Non-production academic research use is permitted.
+- Non-production academic research use is permitted. ‘Production’ means use in or for the benefit of any third party or for revenue-generating services.
 - On **2029-10-01**, the license will change to **GPL-3.0-or-later**.
   See [LICENSE](./LICENSE) for details.
 
@@ -213,8 +213,6 @@ docker run --rm -v ${PWD}\data:/app/data silicon-signal
 docker compose up --build
 ```
 
-> Volumes are relative → you can move the project folder; just recreate your **virtual env** (`.venv`) after moving.
-
 ---
 
 ## Roadmap
@@ -243,6 +241,12 @@ This repository is **source-available** under the **Business Source License 1.1 
 See [LICENSE](./LICENSE) for details.
 
 > _Note:_ BUSL is **not** OSI-approved; GitHub may not show a standard license badge.
+
+---
+
+## Troubleshooting
+
+Coming soon!
 
 ---
 
