@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Florian Scherrer
+# Licensed under the Business Source License 1.1 (BUSL-1.1).
+# See the LICENSE file for the full text, including Change Date and Change License.
+
 import importlib, argparse
 from src.core.logging_config import setup_logging
 from src.pipelines import dag_minimal

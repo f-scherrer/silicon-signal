@@ -13,3 +13,7 @@ ignore = ["E203","E501"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
+
+[project]
+name = "silicon-signal"
+license = { file = "LICENSE" }

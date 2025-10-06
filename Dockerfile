@@ -7,3 +7,4 @@ COPY src/ ./src
 COPY data/ ./data
 ENV PYTHONUNBUFFERED=1
 CMD ["python","-m","src.main","--pipeline","minimal"]
+LABEL org.opencontainers.image.licenses="BUSL-1.1"
